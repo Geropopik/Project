@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+  width: 300px;
+  border: 1px solid #e44444 ;
+  padding: 5px;
+  margin: 20px auto;
+}
+img{
+  width: 100%;
+}
+h3{
+text-align: center;
+margin-top: 10px;
+}
+p{
+  text-align: justify;
+margin-top: 20px;
+}
+span{
+  text-align: right;
+  display: block;
+}
+button{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #44e4af;
+  background-color: aquamarine;
+  color: blue;
+  font-size: 20px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: aliceblue;
+  border: 1px solid #69e444;
+}
